@@ -34,8 +34,8 @@ PipeBro is a fictional plumbing company website designed to:
 
 ## 📸 Preview
 
-👉 *Live Demo:*  
-(https://github.com/pedrobaba)
+👉 Live Demo:
+https://pedrobaba.github.io/plumber-landing-page/
 
 
 
