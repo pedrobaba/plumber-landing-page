@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PipePro Plumbing | Reliable 24/7 Service</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header>
+        <nav class="container">
+            <div class="logo">Pipe<span>Bro</span></div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Us</a></li>
+                <li><a href="#contact" class="btn-small">Emergency Call</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Expert Plumbing Services You Can Trust.</h1>
+            <p>From leaky faucets to emergency pipe bursts, we provide fast, professional, and affordable solutions 24/7.</p>
+            <a href="#contact" class="btn-main">Get a Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="card-grid">
+            <div class="card">
+                <i class="fas fa-tools"></i>
+                <h3>General Repairs</h3>
+                <p>Fixing leaks, toilets, and faucets with precision and high-quality parts.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-faucet"></i>
+                <h3>Drain Cleaning</h3>
+                <p>Advanced hydro-jetting to clear the toughest clogs and keep pipes flowing.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-fire"></i>
+                <h3>Water Heaters</h3>
+                <p>Installation and repair of traditional and tankless water heating systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-choose" class="why-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose PipePro?</h2>
+            <ul class="why-list">
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <strong>24/7 Emergency Support</strong>
+                        <p>Plumbing issues don't wait for business hours, and neither do we.</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <strong>Licensed & Insured</strong>
+                        <p>Our team consists of fully certified experts for your peace of mind.</p>
+                    </div>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <strong>Transparent Pricing</strong>
+                        <p>No hidden fees. We provide upfront estimates before any work begins.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Slider Section -->
+<section id="portfolio" class="portfolio container">
+  <h2 class="section-title">Our Recent Work</h2>
+  <div class="slider-container">
+      <div class="slider">
+          <!-- Slide 1 -->
+          <div class="slide">
+              <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Bathroom Remodel">
+              <div class="slide-caption">Complete Bathroom Remodel</div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="slide">
+              <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=800&q=80" alt="Pipe Repair">
+              <div class="slide-caption">Emergency Main Line Repair</div>
+          </div>
+          
+          <!-- Slide 3 -->
+          <div class="slide">
+              <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80" alt="Kitchen Plumbing">
+              <div class="slide-caption">Modern Kitchen Plumbing Setup</div>
+          </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <button class="slider-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+        <div class="contact-box">
+            <h2 class="section-title">Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="How can we help?" required></textarea>
+                </div>
+                <button type="submit" class="btn-main">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 PipePro Plumbing Services. All rights reserved.</p>
+    </footer>
+
+    <!-- Link javscript file -->
+    <script src="script.js"></script>
+</body>
+</html>
